@@ -1,4 +1,4 @@
-release_repo_url: git@github.com:OrebroUniversity/mod-release.git
+release_repo_url: git@github.com:OrebroUniversity/mod-release
 tracks:
   humble:
     actions:
