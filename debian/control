@@ -1,0 +1,12 @@
+Source: ros-humble-mod
+Section: misc
+Priority: optional
+Maintainer: Chittaranjan Personal <ksatyaki@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, libeigen3-dev, ros-humble-ament-cmake, ros-humble-ompl, ros-humble-ros-workspace
+Homepage: https://mapsofdynamics.bitbucket.io
+Standards-Version: 3.9.2
+
+Package: ros-humble-mod
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, libeigen3-dev, ros-humble-ompl, ros-humble-ros-workspace
+Description: Maps of Dynamics Package
